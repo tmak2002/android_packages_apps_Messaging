@@ -19,10 +19,10 @@
         Base application theme, dependent on API level. This theme is replaced
         by BugleBaseTheme from res/values-vXX/styles.xml on newer devices.
     -->
-    <style name="BugleBaseTheme" parent="@style/Theme.AppCompat" />
+    <style name="BugleBaseTheme" parent="@style/DeviceDefault.Theme.AppCompat" />
 
 
-    <style name="BugleTheme" parent="@style/Theme.AppCompat">
+    <style name="BugleTheme" parent="@style/DeviceDefault.Theme.AppCompat">
         <item name="android:dropDownListViewStyle">@style/DropDownListViewStyle</item>
         <item name="colorPrimary">#689F38</item>
         <item name="colorPrimaryDark">#537F2D</item>
@@ -53,7 +53,7 @@
 
     <style name="BugleTheme.DialogActivity" parent="@style/Theme.AppCompat.Dialog" />
 
-    <style name="BugleTheme.ConversationListActivity" parent="@style/Theme.AppCompat">
+    <style name="BugleTheme.ConversationListActivity" parent="@style/DeviceDefault.Theme.AppCompat">
         <item name="android:dropDownListViewStyle">@style/DropDownListViewStyle</item>
         <item name="colorPrimary">#689F38</item>
         <item name="colorPrimaryDark">#537F2D</item>
@@ -68,7 +68,7 @@
         -->
     </style>
 
-    <style name="BugleTheme.ArchivedConversationListActivity" parent="@style/Theme.AppCompat">
+    <style name="BugleTheme.ArchivedConversationListActivity" parent="@style/DeviceDefault.Theme.AppCompat">
         <item name="android:dropDownListViewStyle">@style/DropDownListViewStyle</item>
         <item name="colorPrimary">#303030</item>
         <item name="colorPrimaryDark">#212121</item>
